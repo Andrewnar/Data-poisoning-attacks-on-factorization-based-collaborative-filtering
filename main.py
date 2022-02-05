@@ -16,7 +16,7 @@ from compute_grad import compute_utility_grad
 from compute_grad import compute_grad
     
 #ratings_file = '/media/wangfuyi15/F/Adversarial machine learning/ml-20m/ratings.csv'
-ratings_file = 'F:/Adversarial machine learning/movielens-master/code/ratings-ml.csv'
+ratings_file = 'data/ml-1m/ratings.dat'
 ratings = load_movielens_ratings(ratings_file)
 rand_state = RandomState(0)
 

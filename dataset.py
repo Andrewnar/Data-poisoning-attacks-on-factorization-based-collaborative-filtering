@@ -7,7 +7,7 @@ def load_movielens_ratings(ratings_file):
         ratings = []
         for line in f:
         #for line in islice(f, 1, None):  
-            line = line.split(",")[:3]
+            line = line.split("::")[:3]
             line = [int(l) for l in line]
             ratings.append(line)
         ratings = np.array(ratings)
